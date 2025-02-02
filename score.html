@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <title>PING PONG</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <!-- Image card -->
+            <div class="card">
+                <img src="images/download.jpeg" alt="PING PONG IMAGE ">
+            </div>
+            <!-- Text below image card -->
+            <div class="card">
+                <h1 class="bold">Ping Pong Score Keeper</h1>
+                <p id="score" class="bold">0 to 0</p>
+                <p> Use the buttons below to keep score</p>
+                <p> <span class="bold"> Playing to </span>
+                    <select name="top" id="top">
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </p>
+                <div id="controls">
+                    <button class="button" id="playerOne"> +1 Player One </button>
+                    <button class="button" id="playerTwo"> +1 Player Two </button>
+                    <button class="button" id="Reset"> Reset </button>
+                </div>
+                
+                
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="score.js"></script>
+</body>
+</html>
